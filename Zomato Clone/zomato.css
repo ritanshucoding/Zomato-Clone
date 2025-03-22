@@ -1,0 +1,130 @@
+/* Reset some default styles */
+#zomato{
+    color: white;
+    font-style: italic;
+    font-size: xx-large;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and general layout */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #e31c1c;
+    color: white;
+    /* position: fixed; */
+}
+
+
+
+header .search-bar {
+    display: flex;
+    align-items: center;
+}
+
+header .search-bar input {
+    padding: 10px;
+    margin-right: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+}
+
+header .search-bar button {
+    padding: 10px 20px;
+    background-color: #ff8c00;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+}
+
+header .nav-links a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Main content */
+main {
+    padding: 50px;
+    text-align: center;
+}
+
+main h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.restaurants {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.restaurant-card {
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.restaurant-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.restaurant-card h3 {
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.restaurant-card p {
+    padding: 10px;
+    text-align: center;
+    color: #777;
+    border-radius: 20px;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #e31c1c;
+    color: white;
+    margin-top: 40px;
+}
+#Inspiration{
+    display: inline-block;
+    background-color:aliceblue;
+    object-fit: cover;
+}
+#fristorder{
+    color: black;
+}
+#identites{
+    color: #333;
+    background-color:aliceblue;
+}
